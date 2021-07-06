@@ -130,6 +130,7 @@ let arr=["apple","banana","orange","pear"]
 for(let i=6;i>-1;i--)
 {
     let fruit=prompt("Guess which fruit is my favorite")
+    fruit=fruit.toLowerCase();
     if(fruit == arr[0] || fruit == arr[1] || fruit == arr[2] || fruit == arr[3])
     {
         alert("Correct")
