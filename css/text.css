@@ -1,1 +1,17 @@
-
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cyan;
+}
+h1
+{
+    text-align: center;
+}
+h2
+{
+    text-align: center;
+    color:blue;
+}
