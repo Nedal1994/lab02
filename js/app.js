@@ -9,6 +9,9 @@ alert("Welcome, " + username)
 alert("I want to play a game")
 
 let score = 0
+////// 
+function q1() {
+    
 
 let club = prompt("is juventus my favorite club ?")
 console.log('before: ', club)
@@ -26,7 +29,8 @@ else {
     alert("try again")
 }
 console.log('after: ', club)
-
+} q1();
+//////
 
 let study = prompt("Am I currently studying programming?")
 console.log('before: ', study)
