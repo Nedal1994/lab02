@@ -53,6 +53,10 @@ else {
   console.log('after: ', study)
 } q2();
   //////////
+
+   function q3() {
+       
+   
 let car = prompt("Is my favorite car Toyota ?")
 console.log('before: ', car)
 car = car.toUpperCase()
@@ -70,7 +74,9 @@ else {
 }
 console.log('after: ', car)
 
-
+   } q3();
+   ////////////////////////////
+   
 let food = prompt("Is my favorite food Molokhia ?")
 
 switch (food.toLowerCase()) {
