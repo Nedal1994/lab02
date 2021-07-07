@@ -123,13 +123,14 @@ for(let i=4;i>-1;i--)
     {
         alert("Too high. You have " + 1 + " attempts")
     }
+    
 }
-
+alert("The correct answer is 7")
 
 let arr=["apple","banana","orange","pear"]
 for(let i=6;i>-1;i--)
 {
-    let fruit=prompt("Guess which fruit is my favorite")
+    let fruit=prompt("Which fruit do you think is my favorite (apple, banana, orange or pear) ?")
     fruit=fruit.toLowerCase();
     if(fruit == arr[0] || fruit == arr[1] || fruit == arr[2] || fruit == arr[3])
     {
