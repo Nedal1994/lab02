@@ -9,6 +9,9 @@ alert("Welcome, " + username)
 alert("I want to play a game")
 
 let score = 0
+////// 
+function q1() {
+    
 
 let club = prompt("is juventus my favorite club ?")
 console.log('before: ', club)
@@ -26,8 +29,11 @@ else {
     alert("try again")
 }
 console.log('after: ', club)
-
-
+} q1();
+//////
+  function q2() {
+      
+  
 let study = prompt("Am I currently studying programming?")
 console.log('before: ', study)
 study = study.toUpperCase()
@@ -44,8 +50,13 @@ else if (study === 'NO' || study === 'N') {
 else {
     alert("try again")
 }
-console.log('after: ', study)
+  console.log('after: ', study)
+} q2();
+  //////////
 
+   function q3() {
+       
+   
 let car = prompt("Is my favorite car Toyota ?")
 console.log('before: ', car)
 car = car.toUpperCase()
@@ -63,7 +74,11 @@ else {
 }
 console.log('after: ', car)
 
-
+   } q3();
+   ////////////////////////////
+   function q4() {
+    
+   
 let food = prompt("Is my favorite food Molokhia ?")
 
 switch (food.toLowerCase()) {
@@ -84,6 +99,11 @@ switch (food.toLowerCase()) {
 }
 console.log(food)
 
+   } q4();
+//////////////
+ function q5() {
+     
+ 
 let sport = prompt("Is baseball my favorite sport ?")
 
 switch (sport.toLowerCase()) {
@@ -104,6 +124,11 @@ switch (sport.toLowerCase()) {
 }
 console.log(sport)
 
+ } q5();
+////////////////
+  
+function q6() {
+    
 
 for(let i=4;i>-1;i--)
 {
@@ -127,6 +152,13 @@ for(let i=4;i>-1;i--)
 }
 alert("The correct answer is 7")
 
+} q6();
+
+/////////////////////////
+
+function q7() {
+    
+
 let arr=["apple","banana","orange","pear"]
 for(let i=6;i>-1;i--)
 {
@@ -147,6 +179,9 @@ for(let i=6;i>-1;i--)
         alert("You didn't answer anything")
     }
 }
+
+
+} q7();
 
 alert(`Your score is ${score}/7`)
 
