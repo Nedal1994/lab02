@@ -31,7 +31,9 @@ else {
 console.log('after: ', club)
 } q1();
 //////
-
+  function q2() {
+      
+  
 let study = prompt("Am I currently studying programming?")
 console.log('before: ', study)
 study = study.toUpperCase()
@@ -48,8 +50,9 @@ else if (study === 'NO' || study === 'N') {
 else {
     alert("try again")
 }
-console.log('after: ', study)
-
+  console.log('after: ', study)
+} q2();
+  //////////
 let car = prompt("Is my favorite car Toyota ?")
 console.log('before: ', car)
 car = car.toUpperCase()
