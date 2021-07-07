@@ -101,7 +101,9 @@ console.log(food)
 
    } q4();
 //////////////
-
+ function q5() {
+     
+ 
 let sport = prompt("Is baseball my favorite sport ?")
 
 switch (sport.toLowerCase()) {
@@ -122,6 +124,8 @@ switch (sport.toLowerCase()) {
 }
 console.log(sport)
 
+ } q5();
+////////////////
 
 for(let i=4;i>-1;i--)
 {
