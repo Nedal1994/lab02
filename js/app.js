@@ -76,6 +76,8 @@ console.log('after: ', car)
 
    } q3();
    ////////////////////////////
+   function q4() {
+    
    
 let food = prompt("Is my favorite food Molokhia ?")
 
@@ -96,6 +98,9 @@ switch (food.toLowerCase()) {
         break;
 }
 console.log(food)
+
+   } q4();
+//////////////
 
 let sport = prompt("Is baseball my favorite sport ?")
 
