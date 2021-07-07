@@ -126,6 +126,9 @@ console.log(sport)
 
  } q5();
 ////////////////
+  
+function q6() {
+    
 
 for(let i=4;i>-1;i--)
 {
@@ -148,6 +151,10 @@ for(let i=4;i>-1;i--)
     
 }
 alert("The correct answer is 7")
+
+} q6();
+
+/////////////////////////
 
 let arr=["apple","banana","orange","pear"]
 for(let i=6;i>-1;i--)
