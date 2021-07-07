@@ -156,6 +156,9 @@ alert("The correct answer is 7")
 
 /////////////////////////
 
+function q7() {
+    
+
 let arr=["apple","banana","orange","pear"]
 for(let i=6;i>-1;i--)
 {
@@ -176,6 +179,9 @@ for(let i=6;i>-1;i--)
         alert("You didn't answer anything")
     }
 }
+
+
+} q7();
 
 alert(`Your score is ${score}/7`)
 
